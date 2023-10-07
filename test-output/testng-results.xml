@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-07T15:54:52 IST" name="Day1TestngReport" finished-at="2023-10-07T15:55:38 IST" duration-ms="46141">
+    <groups>
+    </groups>
+    <test started-at="2023-10-07T15:54:52 IST" name="Regression" finished-at="2023-10-07T15:55:38 IST" duration-ms="46141">
+      <class name="selenium.Asserts">
+        <test-method signature="test_assert()[pri:1, instance:selenium.Asserts@5b1669c0]" started-at="2023-10-07T15:54:52 IST" name="test_assert" finished-at="2023-10-07T15:54:52 IST" duration-ms="18" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [shraddha] but found [Shraddha]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [shraddha] but found [Shraddha]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at selenium.Asserts.test_assert(Asserts.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_assert -->
+        <test-method signature="test_softassert()[pri:2, instance:selenium.Asserts@5b1669c0]" started-at="2023-10-07T15:54:52 IST" name="test_softassert" finished-at="2023-10-07T15:54:52 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_softassert -->
+      </class> <!-- selenium.Asserts -->
+      <class name="selenium.Day3TestNG">
+        <test-method signature="open_url()[pri:1, instance:selenium.Day3TestNG@543295b0]" started-at="2023-10-07T15:54:52 IST" name="open_url" finished-at="2023-10-07T15:54:59 IST" duration-ms="7477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_url -->
+        <test-method signature="login()[pri:2, instance:selenium.Day3TestNG@543295b0]" started-at="2023-10-07T15:54:59 IST" name="login" finished-at="2023-10-07T15:55:00 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="search_user()[pri:3, instance:selenium.Day3TestNG@543295b0]" started-at="2023-10-07T15:55:00 IST" name="search_user" finished-at="2023-10-07T15:55:08 IST" duration-ms="7503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_user -->
+      </class> <!-- selenium.Day3TestNG -->
+      <class name="selenium.Day1TestNG">
+        <test-method signature="test_2()[pri:1, instance:selenium.Day1TestNG@117159c0]" started-at="2023-10-07T15:55:38 IST" name="test_2" finished-at="2023-10-07T15:55:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2 -->
+        <test-method signature="test_1()[pri:2, instance:selenium.Day1TestNG@117159c0]" started-at="2023-10-07T15:55:38 IST" name="test_1" finished-at="2023-10-07T15:55:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+        <test-method signature="test_4()[pri:3, instance:selenium.Day1TestNG@117159c0]" started-at="2023-10-07T15:55:38 IST" name="test_4" finished-at="2023-10-07T15:55:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4 -->
+        <test-method signature="test_3()[pri:4, instance:selenium.Day1TestNG@117159c0]" started-at="2023-10-07T15:55:38 IST" name="test_3" finished-at="2023-10-07T15:55:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3 -->
+      </class> <!-- selenium.Day1TestNG -->
+      <class name="selenium.TestNGOrangeHRM3">
+        <test-method signature="open_url()[pri:1, instance:selenium.TestNGOrangeHRM3@54422e18]" started-at="2023-10-07T15:55:08 IST" name="open_url" finished-at="2023-10-07T15:55:16 IST" duration-ms="7986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_url -->
+        <test-method signature="login()[pri:2, instance:selenium.TestNGOrangeHRM3@54422e18]" started-at="2023-10-07T15:55:16 IST" name="login" finished-at="2023-10-07T15:55:16 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="search_user()[pri:3, instance:selenium.TestNGOrangeHRM3@54422e18]" started-at="2023-10-07T15:55:16 IST" name="search_user" finished-at="2023-10-07T15:55:23 IST" duration-ms="6566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_user -->
+        <test-method signature="add_user()[pri:4, instance:selenium.TestNGOrangeHRM3@54422e18]" started-at="2023-10-07T15:55:23 IST" name="add_user" finished-at="2023-10-07T15:55:29 IST" duration-ms="6474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_user -->
+        <test-method signature="delete_added_user()[pri:5, instance:selenium.TestNGOrangeHRM3@54422e18]" started-at="2023-10-07T15:55:29 IST" name="delete_added_user" finished-at="2023-10-07T15:55:38 IST" duration-ms="8633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_added_user -->
+      </class> <!-- selenium.TestNGOrangeHRM3 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Day1TestngReport -->
+</testng-results>

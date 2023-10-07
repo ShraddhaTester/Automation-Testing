@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Day1TestngReport">
+  <test thread-count="5" name="Regression">
+    <classes>
+      <class name="selenium.Asserts"/>
+      <class name="selenium.Day3TestNG"/>
+      <class name="selenium.TestNGOrangeHRM3"/>
+      <class name="selenium.Day1TestNG"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- Day1TestngReport -->
